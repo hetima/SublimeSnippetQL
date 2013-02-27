@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AACA60C916DDBF3300B0F198 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACA60C816DDBF3300B0F198 /* QuickLook.framework */; };
+		AACA60CB16DDBF3300B0F198 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACA60CA16DDBF3300B0F198 /* ApplicationServices.framework */; };
+		AACA60CD16DDBF3300B0F198 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACA60CC16DDBF3300B0F198 /* CoreServices.framework */; };
+		AACA60CF16DDBF3300B0F198 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACA60CE16DDBF3300B0F198 /* CoreFoundation.framework */; };
+		AACA60D516DDBF3300B0F198 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AACA60D316DDBF3300B0F198 /* InfoPlist.strings */; };
+		AACA60D716DDBF3300B0F198 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = AACA60D616DDBF3300B0F198 /* GenerateThumbnailForURL.m */; };
+		AACA60D916DDBF3300B0F198 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = AACA60D816DDBF3300B0F198 /* GeneratePreviewForURL.m */; };
+		AACA60DB16DDBF3300B0F198 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AACA60DA16DDBF3300B0F198 /* main.c */; };
+		AACA60E316DDC31D00B0F198 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACA60E216DDC31D00B0F198 /* Foundation.framework */; };
+		AACA60E616DDCAFE00B0F198 /* tmpl.html in Resources */ = {isa = PBXBuildFile; fileRef = AACA60E516DDCAFE00B0F198 /* tmpl.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AACA60C516DDBF3300B0F198 /* SublimeSnippetQL.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SublimeSnippetQL.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACA60C816DDBF3300B0F198 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		AACA60CA16DDBF3300B0F198 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		AACA60CC16DDBF3300B0F198 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		AACA60CE16DDBF3300B0F198 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		AACA60D216DDBF3300B0F198 /* SublimeSnippetQL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SublimeSnippetQL-Info.plist"; sourceTree = "<group>"; };
+		AACA60D416DDBF3300B0F198 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AACA60D616DDBF3300B0F198 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		AACA60D816DDBF3300B0F198 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
+		AACA60DA16DDBF3300B0F198 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		AACA60DC16DDBF3300B0F198 /* SublimeSnippetQL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SublimeSnippetQL-Prefix.pch"; sourceTree = "<group>"; };
+		AACA60E216DDC31D00B0F198 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AACA60E516DDCAFE00B0F198 /* tmpl.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tmpl.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AACA60C016DDBF3300B0F198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACA60E316DDC31D00B0F198 /* Foundation.framework in Frameworks */,
+				AACA60C916DDBF3300B0F198 /* QuickLook.framework in Frameworks */,
+				AACA60CB16DDBF3300B0F198 /* ApplicationServices.framework in Frameworks */,
+				AACA60CD16DDBF3300B0F198 /* CoreServices.framework in Frameworks */,
+				AACA60CF16DDBF3300B0F198 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AACA60BA16DDBF3300B0F198 = {
+			isa = PBXGroup;
+			children = (
+				AACA60D016DDBF3300B0F198 /* SublimeSnippetQL */,
+				AACA60C716DDBF3300B0F198 /* Frameworks */,
+				AACA60C616DDBF3300B0F198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AACA60C616DDBF3300B0F198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AACA60C516DDBF3300B0F198 /* SublimeSnippetQL.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AACA60C716DDBF3300B0F198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACA60E216DDC31D00B0F198 /* Foundation.framework */,
+				AACA60C816DDBF3300B0F198 /* QuickLook.framework */,
+				AACA60CA16DDBF3300B0F198 /* ApplicationServices.framework */,
+				AACA60CC16DDBF3300B0F198 /* CoreServices.framework */,
+				AACA60CE16DDBF3300B0F198 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AACA60D016DDBF3300B0F198 /* SublimeSnippetQL */ = {
+			isa = PBXGroup;
+			children = (
+				AACA60D616DDBF3300B0F198 /* GenerateThumbnailForURL.m */,
+				AACA60D816DDBF3300B0F198 /* GeneratePreviewForURL.m */,
+				AACA60DA16DDBF3300B0F198 /* main.c */,
+				AACA60D116DDBF3300B0F198 /* Supporting Files */,
+				AACA60E416DDCAFD00B0F198 /* Resources */,
+			);
+			path = SublimeSnippetQL;
+			sourceTree = "<group>";
+		};
+		AACA60D116DDBF3300B0F198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AACA60D216DDBF3300B0F198 /* SublimeSnippetQL-Info.plist */,
+				AACA60D316DDBF3300B0F198 /* InfoPlist.strings */,
+				AACA60DC16DDBF3300B0F198 /* SublimeSnippetQL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AACA60E416DDCAFD00B0F198 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AACA60E516DDCAFE00B0F198 /* tmpl.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AACA60C116DDBF3300B0F198 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AACA60C416DDBF3300B0F198 /* SublimeSnippetQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACA60DF16DDBF3300B0F198 /* Build configuration list for PBXNativeTarget "SublimeSnippetQL" */;
+			buildPhases = (
+				AACA60BF16DDBF3300B0F198 /* Sources */,
+				AACA60C016DDBF3300B0F198 /* Frameworks */,
+				AACA60C116DDBF3300B0F198 /* Headers */,
+				AACA60C216DDBF3300B0F198 /* Resources */,
+				AACA60C316DDBF3300B0F198 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SublimeSnippetQL;
+			productName = SublimeSnippetQL;
+			productReference = AACA60C516DDBF3300B0F198 /* SublimeSnippetQL.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AACA60BB16DDBF3300B0F198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = hetima;
+			};
+			buildConfigurationList = AACA60BE16DDBF3300B0F198 /* Build configuration list for PBXProject "SublimeSnippetQL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AACA60BA16DDBF3300B0F198;
+			productRefGroup = AACA60C616DDBF3300B0F198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AACA60C416DDBF3300B0F198 /* SublimeSnippetQL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AACA60C216DDBF3300B0F198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACA60D516DDBF3300B0F198 /* InfoPlist.strings in Resources */,
+				AACA60E616DDCAFE00B0F198 /* tmpl.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		AACA60C316DDBF3300B0F198 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AACA60BF16DDBF3300B0F198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACA60D716DDBF3300B0F198 /* GenerateThumbnailForURL.m in Sources */,
+				AACA60D916DDBF3300B0F198 /* GeneratePreviewForURL.m in Sources */,
+				AACA60DB16DDBF3300B0F198 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AACA60D316DDBF3300B0F198 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AACA60D416DDBF3300B0F198 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AACA60DD16DDBF3300B0F198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AACA60DE16DDBF3300B0F198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AACA60E016DDBF3300B0F198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SublimeSnippetQL/SublimeSnippetQL-Prefix.pch";
+				INFOPLIST_FILE = "SublimeSnippetQL/SublimeSnippetQL-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = all;
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		AACA60E116DDBF3300B0F198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SublimeSnippetQL/SublimeSnippetQL-Prefix.pch";
+				INFOPLIST_FILE = "SublimeSnippetQL/SublimeSnippetQL-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = all;
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AACA60BE16DDBF3300B0F198 /* Build configuration list for PBXProject "SublimeSnippetQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACA60DD16DDBF3300B0F198 /* Debug */,
+				AACA60DE16DDBF3300B0F198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACA60DF16DDBF3300B0F198 /* Build configuration list for PBXNativeTarget "SublimeSnippetQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACA60E016DDBF3300B0F198 /* Debug */,
+				AACA60E116DDBF3300B0F198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AACA60BB16DDBF3300B0F198 /* Project object */;
+}
